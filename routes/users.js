@@ -17,6 +17,10 @@ router.get('/oauth2/redirect/google', passport.authenticate('google', { failureR
 router.get('/login',async(req,res) => {
   // res.status(200).json({"message":"please login again"});
   res.render('login');
-})
+});
+
+router.get('/logout', function(req, res, next) {
+  res.render('signup')
+});
 
 module.exports = router;
