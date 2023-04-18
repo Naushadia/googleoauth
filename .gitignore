@@ -1,0 +1,13 @@
+node_modules
+bin
+config
+.env
+package-lock.json
+controller
+middleware
+migrations
+models
+public
+seeders
+uploads
+views
